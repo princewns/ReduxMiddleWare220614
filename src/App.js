@@ -5,6 +5,7 @@ import CounterHookContainer from "./containers/CounterHookContainer";
 import TodosHookContainer from "./containers/TodosHookContainer";
 import CounterAsyncContainer from "./containers/CounterAsyncContainer";
 import NewsItemAsyncContainer from "./containers/NewsItemAsyncContainer";
+import CounterSagaContainer from "./containers/CounterSagaContainer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <CounterContainer/>
       <CounterHookContainer/>
       <CounterAsyncContainer/>
+      <CounterSagaContainer/>
       <hr></hr>
       <TodosContainer/>
       <TodosHookContainer/>
